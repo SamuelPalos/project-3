@@ -1,0 +1,114 @@
+/* Navbar */
+.navbar {
+    text-align: center;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.navbar button {
+    float: right;
+    justify-content: space-between;
+}
+
+/* Picture */
+
+.logo {
+    float: left;
+    width: 10%;
+}
+
+.pic1 {
+    max-width: 15%;
+    max-width: 25%;
+    float: left;
+    margin-right: 3%;
+}
+
+.city {
+    width: 80%;
+    display: flex;
+    overflow: auto;
+    height: 30vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.guy {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    float: left;
+}
+
+.main {
+    width: 75%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 18%;
+    margin: auto;
+}
+
+.hero {
+    float: left;
+    margin-bottom: 10%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    text-align: left;
+}
+
+    .row > div {  
+    display: flex; 
+    flex-basis: calc(40% - 20px);     
+    justify-content: center;   
+    flex-direction: column;
+    }
+
+    .box1 .box2 .box3 .box4 {
+        margin: 50px;
+    }
+
+    .mas {
+        font-size: 12px;
+    }
+
+    .min {
+        float: right;
+        font-size: 12px;
+        color: lightblue;
+    }
+
+    .started {
+        background-color: black;
+        color: white;
+    }
+
+    .more {
+        background-color: white;
+    }
+
+    .log {
+        border-style: none;
+        background-color: white;
+        padding-right: 10px;
+    }
+
+    .reg {
+        background-color: white;
+        border-style: solid;
+        border-width: thin;
+    }
